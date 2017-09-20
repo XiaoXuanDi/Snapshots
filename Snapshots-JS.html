@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片库(原生JS实现)</title>
+	<link rel="stylesheet" href="./CSS/Snapshots-js.css">
+</head>	
+<script src="./JS/showPic.js"></script>
+<script>
+
+</script>
+<body>
+	<h1>Snapshots</h1>
+	<ul id="imagegallery">
+		<li><a href="./PIC/dream_pig.jpg" title="This is a  flying pig?" onclick="popUp(this.href); return false;" class="popup">dream pig</a></li>
+		<li><a href="./PIC/heart_tree.jpg" title="What a (う tree!!" onclick="popUp(this.href); return false;" class="popup">heart tree</a></li>
+		<li><a href="./PIC/pisces.jpeg" title="Pisces == double fish." onclick="popUp(this.href); return false;" class="popup">pisces</a></li>
+	</ul>
+	<img src="./PIC/kongbai.png" alt="default_pic" id="placeholder" />
+	<p id="description">Choose an image!!</p>
+</body>
+</html>
