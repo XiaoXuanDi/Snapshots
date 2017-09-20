@@ -1,0 +1,32 @@
+body{
+	font-size: 25px;
+	color: #333;
+	background-color: #ccc;
+	margin:1em 30%;
+}
+h1{
+	text-align: center;
+	padding-left:2em; 
+	color: #333;
+	background-color: transparent;
+}
+ul{
+	padding: 0;
+}
+li{
+	float: left;
+	list-style: none;
+	padding: 2.7em;
+}
+li>a{
+	color: orange;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: none;
+}
+#description{
+	color: orange;
+	font-weight: bold;
+	display: block;
+	clear: both;
+}
