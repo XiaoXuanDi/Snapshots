@@ -16,13 +16,24 @@ ul{
 li{
 	float: left;
 	list-style: none;
-	padding: 2.7em;
+	padding: 1em;
 }
 li>a{
 	color: orange;
 	background-color: transparent;
 	font-weight: bold;
 	text-decoration: none;
+}
+#imagegallery{
+	list-style: none;
+}
+#imagegallery li{
+	display: inline;
+}
+#imagegallery li a img {
+	width: 205px;
+	height: 205px;
+	border: 0;
 }
 #description{
 	color: orange;
